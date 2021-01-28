@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@font-face {
+    font-family: "metropolis";
+    src:url("/Fonts/Metropolis-Light.otf");
+}
+
 body {
   background-color: #1e1a1b;
   color: #333;
@@ -15,6 +21,9 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+h1{
+    font-family: ;
 }
 
 h2 {
@@ -177,6 +186,7 @@ span {
 #header #logo img {
   padding: 0;
   margin: 0;
+  height: 52px;
 }
 
 .scroll-header {
@@ -221,7 +231,7 @@ span {
   font-weight: 700;
   line-height: 56px;
   margin-top:40px;
-  font-family: "Philosopher", sans-serif;
+  font-family: sans-serif;
   color: #fa9800;
 }
 
@@ -233,10 +243,10 @@ span {
 }
 
 #hero h2 {
-  color: #efdab9;
+  color: #efefef;
   margin-bottom: 30px;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: metropolis, sans-serif;
   font-weight: 300;
 }
 
@@ -254,7 +264,7 @@ span {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: metropolis, sans-serif;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 13px;
@@ -297,7 +307,7 @@ span {
 }
 
 .slash {
-    color: #fa9800;
+    color: #e26901;
 }
 
 /*--------------------------------------------------------------
@@ -378,7 +388,7 @@ span {
   text-decoration: none;
   display: inline-block;
   color: #555;
-  font-family: "Roboto", sans-serif;
+  font-family: metropolis, sans-serif;
   font-weight: 400;
   font-size: 14px;
   outline: none;
@@ -561,12 +571,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .section-title h2 {
-  font-family: "Roboto", sans-serif;
+  font-family: metropolis;
   font-size: 45px;
-  font-weight: 100;
+  font-weight: bold;
   letter-spacing: 2px;
   margin-bottom: 20px;
   text-transform: capitalize;
+  color: white;
 }
 
 .section-title .separator {
@@ -574,8 +585,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 .separator {
-  color: #efdab9;
-  font-family: "Roboto", sans-serif;
+  color: #efefef;
+  font-family: metropolis, sans-serif;
   font-size: 15px;
   font-weight: 300;
   margin-bottom: 30px;
@@ -594,8 +605,16 @@ body.mobile-nav-active #mobile-nav-toggle i {
     margin-bottom: 30px;
 }
 
+#get-started .logo{
+    height: 80px;
+    width: auto;
+    margin-bottom: 10px;
+    
+}
+
 #get-started .lock{
-    width: 140px;
+    width: 200px;
+    fill: white;
 }
 
 #get-started .feature-block {
@@ -617,14 +636,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #get-started .feature-block h4 {
   margin-bottom: 20px;
-  color: #efdab9;
+  color: #efefef;
   font-size: 30px;
 }
 
 #get-started .feature-block p {
   margin-bottom: 20px;
   text-align: justify;
-  color: #efdab9;
+  color: #efefef;
   font-size: 15px;
 }
 
@@ -653,7 +672,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us .about-content h2 {
   color: #252525;
-  font-family: "roboto";
+  font-family: metropolis;
   font-size: 39px;
   font-weight: 100;
   letter-spacing: 2px;
@@ -954,7 +973,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #testimonials .top-top > h2 {
-  font-family: "Roboto" sans-serif;
+  font-family: metropolis sans-serif;
   font-size: 45px;
   font-weight: 100;
   letter-spacing: 2px;
