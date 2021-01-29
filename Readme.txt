@@ -1,6 +1,4 @@
-Thanks for downloading this theme!
-
-Theme Name: eStartup
-Theme URL: https://bootstrapmade.com/estartup-bootstrap-landing-page-template/
-Author: BootstrapMade.com
+Theme Name: /Task
+Theme URL: taskapp.it
+Author: Edoardo Mauriello from bootstrap free template
 Author URL: https://bootstrapmade.com

@@ -48,7 +48,7 @@ ul {
 }
 
 li {
-  color: #626262;
+  color: #fff;
   font-size: 13px;
   font-weight: 400;
   letter-spacing: 2px;
@@ -137,12 +137,20 @@ span {
   color: #fff;
 }
 
+.not-visible{
+    visibility: hidden;
+}
+
+.rounded{
+    border-radius: 50% !important;
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
 #header {
   background: #000;
-  position: fixed;
+  /*position: absolute;*/
   left: 0;
   top: 0;
   right: 0;
@@ -205,7 +213,7 @@ span {
 }
 
 #hero .hero-container {
-  position: absolute;
+  position: relative;
   bottom: 0;
   top: 0;
   left: 0;
@@ -556,6 +564,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 .section-title {
   margin-bottom: 80px;
+    padding-top: 80px;
 }
 
 @media (max-width: 992px) {
@@ -603,6 +612,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #get-started p{
     font-family: "Roboto", sans-serif;
     color: #fff;
+    text-transform: none;
 }
 
 #get-started .logog{
@@ -620,6 +630,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
   #get-started .feature-block {
     margin-bottom: 30px;
     }
+}
+
+#get-started .feature-block img{
+    height: 150px;
+    width: 150px;
 }
 
 #get-started .feature-block:hover {
@@ -659,13 +674,14 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #about-us .about-content h2 {
-  color: #252525;
+  color: #fff;
   font-family: "Raleway";
-  font-size: 39px;
+  font-size: 60px;
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   margin-bottom: 20px;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 #about-us .about-content span {
@@ -676,10 +692,13 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 #about-us .about-content ul li {
   line-height: 36px;
+  font-size: 20px;
+  
 }
 
-#about-us .about-content ul li .fa {
+#about-us .about-content ul li img {
   padding-right: 20px;
+  height: 30px;
 }
 
 /* Features Section
@@ -709,6 +728,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #features .feature-block p {
   margin-bottom: 0;
 }
+
 
 /* Screenshots Section
 --------------------------------*/
@@ -939,6 +959,11 @@ body.mobile-nav-active #mobile-nav-toggle i {
 #team .team-block:hover .team-content {
   bottom: 0px;
   transition: all 0.5s ease-in-out 0s;
+}
+
+#team .person{
+    color: #fff;
+    font-size: 20px;
 }
 
 /* Testimonials Section
